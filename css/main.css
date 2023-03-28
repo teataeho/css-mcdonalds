@@ -22,7 +22,6 @@ a {
 
 /* header style */
 header {
-    background: #fff;
     height: 140px;
     position: relative;
 }
@@ -30,6 +29,7 @@ header {
 header .inner-header {
     width: 1168px;
     margin: 0 auto;
+    position: relative;
 }
 
 header .inner-header .logo {
@@ -56,20 +56,33 @@ header .inner-header .hMenu .menu li {
 }
 
 header .inner-header .rightMenu {
-    display: block;
-    float: left;
-    width: 300px;
+    position: absolute;
+    top: 53px;
+    right: 57px;
 }
 
 header .inner-header .rightMenu a {
     float: left;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     border-radius: 50px;
     width: 80px;
-    height: 30px;
-    margin: auto 5px;
+    height: 35px;
+    margin: auto 1px;
     text-align: center;
-    line-height: 140px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+header .inner-header .rightMenu a:first-child {
+    background: #db0007;
+}
+header .inner-header .rightMenu a:nth-child(2) {
+    background: #d87e00;
+}
+header .inner-header .rightMenu a:last-child {
+    background: #264a36;
 }
 
 header .inner-header .find {
