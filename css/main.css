@@ -35,7 +35,7 @@ header .inner-header {
 header .inner-header .logo {
     float: left;
     position: relative;
-    top: 28px;    
+    top: 28px;
 }
 
 header .inner-header .hMenu {
@@ -88,20 +88,33 @@ footer {
 }
 
 footer .inner-footer {
-    padding: 60px;
+    padding: 60px;    
+    width: 1168px;
+    margin: 0 auto;
 }
 
 footer .inner-footer .fUtil {
     float: left;
 }
 
-footer .inner-footer .fUtil 
+footer .inner-footer .fUtil li:first-child {
+    color: yellow;
+}
 
 footer .inner-footer .fInfo {
     float: left;
     margin-left: 100px;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 2;
 }
 
 footer .inner-footer .fSns {
     float: right;
+    font-size: 40px;
+}
+
+footer .inner-footer .fSns li {
+    float: left;
+    margin-left: 20px;
 }
