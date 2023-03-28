@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
 
 /* reset */
@@ -11,9 +10,98 @@ a {
 .wrap {
     font-size: 15px;
     font-family: 'Noto Sans KR', sans-serif;
+    min-width: 1280px;
 }
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 
 /* header style */
 header {
     background: #fff;
+    height: 140px;
+    position: relative;
+}
+
+header .inner-header {
+    width: 1168px;
+    margin: 0 auto;
+}
+
+header .inner-header .logo {
+    float: left;
+    position: relative;
+    top: 28px;    
+}
+
+header .inner-header .hMenu {
+    float: left;
+    height: 100%;
+}
+
+header .inner-header .hMenu .menu {
+    margin-left: 50px;
+}
+
+header .inner-header .hMenu .menu li {
+    float: left;
+    margin: auto 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140px;
+}
+
+header .inner-header .rightMenu {
+    display: block;
+    float: left;
+    width: 300px;
+}
+
+header .inner-header .rightMenu a {
+    float: left;
+    border: 1px solid #000;
+    border-radius: 50px;
+    width: 80px;
+    height: 30px;
+    margin: auto 5px;
+    text-align: center;
+    line-height: 140px;
+}
+
+header .inner-header .find {
+    float: right;
+    line-height: 140px;
+    font-size: 35px;
+}
+
+/* footer style */
+footer {
+    background: #292929;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    height: 300px;
+}
+
+footer .inner-footer {
+    padding: 60px;
+}
+
+footer .inner-footer .fUtil {
+    float: left;
+}
+
+footer .inner-footer .fUtil 
+
+footer .inner-footer .fInfo {
+    float: left;
+    margin-left: 100px;
+}
+
+footer .inner-footer .fSns {
+    float: right;
 }
