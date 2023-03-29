@@ -79,8 +79,20 @@
 .crewList {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .crewList .tit {
     display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;    
+    line-height: 34px;
+}
+
+.crewList .crewInfo {
+    display: block;
+    margin-top: 5px;
+    color: #808080;
+    font-weight: 500;
 }
